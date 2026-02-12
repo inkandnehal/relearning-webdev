@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    min-height: 60vh;
+    padding: 60px 20px;
+
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("./images/hero.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero .hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+    color: white;
+}
+
+.subtitle {
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.btn.primary {
+    background: #4f46e5;
+    color: white;
+}
+
+.btn.outline {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #111;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.grid {
+    margin-top: 20px;
+}
+
+.card {
+    border: 2px solid #ddd;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.practice {
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px solid #eee;
+}
+
+.tag {
+    display: inline;
+    padding: 2px 8px;
+    border: 1px solid #ccc;
+}
+
+.demo-row {
+    margin-top: 14px
+}
+
+.demo-box {
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    border: 2px solid #333;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.hide-me {
+    /* display: none; */
+    visibility: hidden;
+}
+
+.focus-demo {
+  margin-top: 12px;
+  border: 2px solid #111;
+  background: white;
+  color: #111;
+}
+
+.focus-demo:focus {
+  outline: 4px solid rgb(78, 76, 76);
+}
+
+.card button {
+    margin-top: 10px;
+}
