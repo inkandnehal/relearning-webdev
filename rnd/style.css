@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", Times, serif;
+}
+
+.hero {
+    padding: 12rem;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.7)),
+    url("https://i.pinimg.com/1200x/75/2a/97/752a9700668ec37576921d9046f2f070.jpg");
+    color: white;
+}
+
+.hero span {
+    color: red;
+}
+
+.hero__button-group {
+    margin-top: 14px;
+}
+
+.hero__button-primary,
+.hero__button-secondary
+{
+    padding: 10px 20px;
+    border: 1px solid #cccccc7a;
+    border-radius: 4px;
+    box-shadow: 2px 6px 12px 5px rgba(90,198,156,0.47);
+}
+
+.hero__button-primary {
+    color: #ffffff;
+    background-color: #e02222;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero__button-secondary {
+    color: #ffffff;
+    background-color: rgb(225, 134, 44);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.activity {
+    padding: 100px;
+    padding-bottom: 200px;
+    font-weight: 400;
+}
+
+.activity__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.activity__item {
+    background-color: #ccc;
+    padding: 30px;
+    width: 10%;
+    flex-basis: 30%;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.activity__item button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
